@@ -9,6 +9,9 @@ const userSchema = new mongoose.Schema({
     cloudinary_id: {
         type: String,
     },
+    profile: {
+        type: String,
+    },
 });
 
 export default mongoose.model('User', userSchema);
